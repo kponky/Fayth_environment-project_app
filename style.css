@@ -506,16 +506,16 @@ nav .navbar-inner .navbar-menu .nav_list .nav-link:hover {
 
   .hero-container .departments-section {
     margin-top: 36px;
-    margin-inline: 45px;
+    margin-inline: 20px;
   }
 
   .hero-container .environmental-sc-section {
-    margin-inline: 45px;
+    margin-inline: 20px;
     margin-block: 30px;
   }
 
   .hero-container .portal-btn a {
-    margin-inline: 45px;
+    margin-inline: 20px;
     display: flex;
     align-items: center;
     gap: 20px;
