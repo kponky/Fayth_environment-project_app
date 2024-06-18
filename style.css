@@ -233,7 +233,6 @@ nav .nav__logo h3 {
   width: 127px;
   height: 48px;
   padding: 13px 40px;
-  /* padding: 12.71px 41.13px 11.4px 40.84px; */
   gap: 0px;
   border-radius: 10px;
   opacity: 0px;
@@ -242,6 +241,7 @@ nav .nav__logo h3 {
   font-family: Space Grotesk;
   font-size: 14px;
   font-weight: 500;
+  margin-block: 28px;
 
 
 
