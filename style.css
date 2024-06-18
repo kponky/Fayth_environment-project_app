@@ -464,7 +464,7 @@ nav .navbar-inner .navbar-menu .nav_list .nav-link:hover {
     color: #fff;
     font-size: 19px;
     background: #359EFF;
-}
+  }
 
   .hero-container .hero__section {
     width: 100%;
@@ -474,36 +474,61 @@ nav .navbar-inner .navbar-menu .nav_list .nav-link:hover {
     margin-inline: 0;
   }
 
-    
+
   .hero-container .hero__section .hero-text {
-    padding-inline: 22px;
- }
+    padding-inline: 20px;
+    width: 100%;
+  }
 
- .hero-container .hero__section .hero-text h1 {
-  font-size: 40px;
-  line-height: 50px;
+  .hero-container .hero__section .hero-text h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .hero-container .hero__section .hero-text p {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 22px;
+  }
+
+  .hero-container .departments-section {
+    margin-top: 36px;
+    margin-inline: 45px;
+  }
+
+  .hero-container .environmental-sc-section {
+    margin-inline: 45px;
+    margin-block: 30px;
+  }
+
+  .hero-container .portal-btn a {
+    margin-inline: 45px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .hero-container .hero__section .input-secton {
+
+    width: 100%;
+
+  }
 }
 
-.hero-container .hero__section .hero-text p {
-  font-size: 13px;
-  font-weight: 500;
-  line-height: 22px;
-}
 
-.hero-container .departments-section {
-  margin-top: 36px;
-  margin-inline: 45px;
-}
 
-.hero-container .environmental-sc-section {
-  margin-inline: 45px;
-  margin-block: 30px;
-}
 
-.hero-container .portal-btn a {
-  margin-inline: 45px;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
+
+
+@media only screen and (max-width: 540px) {
+  .hero-container .hero__section .hero-text {
+    padding-inline: 20px;
+    width: 100%;
+  }
+
+  .hero-container .hero__section .hero-text h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
 }
