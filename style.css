@@ -242,8 +242,35 @@ nav .nav__logo h3 {
   font-size: 14px;
   font-weight: 500;
   margin-block: 28px;
+}
 
+.hero-container .departments-section {
+  margin-top: 36px;
+  margin-inline: 90px;
+}
 
+.hero-container .departments-section .depart-heading h3 {
+  margin-block: 36px;
+  font-family: Space Grotesk;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27.84px;
+  text-align: left;
 
+}
+
+.hero-container .departments-section .departments .depts-card {
+  display: flex;
+  align-items: center;
+  margin-block: 30px;
+  gap: 30px;
+
+}
+
+.hero-container .departments-section .departments .depts-card img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  opacity: 0px;
 
 }
