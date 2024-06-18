@@ -272,5 +272,96 @@ nav .nav__logo h3 {
   height: 60px;
   border-radius: 50%;
   opacity: 0px;
+}
+
+.hero-container .departments-section .departments .depts-card .dept-text {
+
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  line-height: 18px;
+  position: relative;
+  width: 100%;
+}
+
+.hero-container .departments-section .departments .depts-card .dept-text::after {
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: -10px;
+  width: 70%;
+  border-bottom: 1px solid #00000080;
+  position: absolute;
+}
+
+.hero-container .departments-section .departments .depts-card .dept-text h6 {
+  font-family: Space Grotesk;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.88px;
+  color: #000;
+
+}
+
+.hero-container .departments-section .departments .depts-card .dept-text p {
+  font-family: Space Grotesk;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17.4px;
+  text-align: left;
+
+}
+
+.hero-container .environmental-sc-section {
+  margin-inline: 90px;
+  margin-block: 30px;
+}
+
+.hero-container .environmental-sc-section .env-sc-heading {
+  margin-top: 50px;
+  margin-bottom: 36px;
+  font-family: Space Grotesk;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.hero-container .environmental-sc-section .env-text {
+
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #322E16;
+}
+
+.hero-container .portal-btn a {
+  text-decoration: none;
+  margin-block: 54px;
+  margin-inline: 90px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+}
+
+.hero-container .portal-btn button {
+  background: #F6C274;
+  width: 44px;
+  height: 44px;
+  padding: 13px 14px 15px 14px;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  font-size: 19px;
+  opacity: 0px;
+
+}
+
+.hero-container .portal-btn p {
+  color: #000;
+  font-family: Space Grotesk;
+  font-size: 14px;
+  font-weight: 500;
+
 
 }
