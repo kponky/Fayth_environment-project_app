@@ -275,12 +275,21 @@ nav .navbar-inner .navbar-menu .nav_list .nav-link:hover {
 
 }
 
-.hero-container .departments-section .departments .depts-card {
+.hero-container .departments-section .departments  .depts-card {
   display: flex;
   align-items: center;
   margin-block: 30px;
   gap: 30px;
+}
 
+.hero-container .departments-section .departments  .depts-card a{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  /* margin-block: 30px; */
+  gap: 30px;
+  color: #000;
+  width: 100%;
 }
 
 .hero-container .departments-section .departments .depts-card img {
@@ -290,7 +299,7 @@ nav .navbar-inner .navbar-menu .nav_list .nav-link:hover {
   opacity: 0px;
 }
 
-.hero-container .departments-section .departments .depts-card .dept-text {
+.hero-container .departments-section .departments .depts-card a .dept-text {
 
   display: flex;
   flex-direction: column;
@@ -300,7 +309,7 @@ nav .navbar-inner .navbar-menu .nav_list .nav-link:hover {
   width: 100%;
 }
 
-.hero-container .departments-section .departments .depts-card .dept-text::after {
+.hero-container .departments-section .departments .depts-card a .dept-text::after {
   content: "";
   top: 0;
   left: 0;

@@ -1,0 +1,120 @@
+.hero-container .dept-page {
+  background: url(/assests/env-1.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  max-width: 100%;
+  height: 186px;
+  padding-inline: 30px;
+  margin-inline: 90px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-inline: 30px;
+  margin-inline: 90px;
+  margin-top: 140px;
+  color: #fff;
+  font-family: "Space Grotesk", sans-serif;
+  position: relative;
+}
+
+.hero-container .dept-page::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #060C4166;
+  border-radius: 10px;
+
+}
+
+.hero-container .dept-page .dept-text {
+  padding-inline: 60px;
+  margin-top: 30px;
+  z-index: 1;
+}
+
+.hero-container .dept-page .dept-text h1 {
+  font-family: Space Grotesk;
+  font-size: 35px;
+  font-weight: 500;
+  
+}
+
+ .departments__section {
+  margin-top: 36px;
+  margin-inline: 90px;
+  margin-bottom: 70px;
+}
+
+.departments__section .depart-heading h3 {
+  margin-block: 36px;
+  font-family: Space Grotesk;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27.84px;
+  text-align: left;
+}
+
+.departments__section .departments  .depts-card {
+  display: flex;
+  align-items: center;
+  margin-block: 30px;
+  /* gap: 30px; */
+}
+.departments__section .departments  .depts-card a{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: #000;
+  width: 100%;
+}
+
+.departments__section  .departments .depts-card img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  opacity: 0px;
+  margin-top: 10px;
+}
+.departments__section  .departments .depts-card a .dept-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  line-height: 18px;
+  position: relative;
+  width: 100%;
+}
+.departments__section .departments .depts-card a .dept-text::after {
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: -10px;
+  width: 70%;
+  border-bottom: 1px solid #00000080;
+  position: absolute;
+}
+
+.departments__section  .departments .depts-card a .dept-text h6{
+  font-family: Space Grotesk;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.88px;
+  color: #000;
+}
+
+.departments__section  .departments .depts-card a .dept-text p{
+  font-family: Space Grotesk;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17.4px;
+  text-align: left;
+}
+ 
+
+
+
