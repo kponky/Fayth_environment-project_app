@@ -1,0 +1,126 @@
+.login-container {
+  margin-block: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-family: Space Grotesk;
+
+
+}
+
+.login-container .login-heading {
+  padding-block: 40px;
+  text-align: center;
+
+  /* line-height: 30px; */
+
+}
+
+.login-container .login-heading h3 {
+  font-family: Space Grotesk;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 37px;
+  margin-block: 20px;
+  width: 100%;
+}
+
+.login-container .login-heading p {
+  font-family: Space Grotesk;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 20px;
+
+}
+
+.login-container .login-form {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  justify-content: center;
+
+}
+
+.login-container .login-form .form-control .form-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-block: 10px;
+  /* padding-block: 8px; */
+}
+
+.login-container .login-form .form-control label {
+  font-family: Space Grotesk;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+.login-container .login-form .form-control .form-card input {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border: 1px solid #aaa;
+  padding-inline: 20px;
+  outline: none;
+  border-radius: 12px;
+  box-sizing: border-box;
+
+}
+
+.login-container .login-form .button-card {
+  display: flex;
+  flex-direction: column;
+  padding-block: 20px;
+  align-items: center;
+}
+
+
+.login-container .login-form .button-card .btn {
+  background-color: #359EFF;
+  border: none;
+  width: 100%;
+  height: 50px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+
+}
+
+.login-container .login-form .button-card a{
+  margin-top: 20px;
+  color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+  .login-container {
+    width: 100%;
+    padding-inline: 30px;
+    
+  }
+
+  .login-container .login-form {
+    width: 100%;
+  
+  }
+}
