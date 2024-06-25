@@ -88,6 +88,7 @@ nav .nav__logo {
   display: flex;
   align-items: center;
   margin-inline: 20px;
+  margin-top: 10px;
 
 }
 
@@ -113,6 +114,7 @@ nav .nav__logo h3 {
 
 .navbar-menu .nav_list {
   list-style: none;
+  margin-top: 10px;
 
 }
 
@@ -152,6 +154,7 @@ nav .navbar-inner .navbar-menu .nav_list .nav-link:hover {
   border: none;
   color: #000;
   font-size: 19px;
+ 
 }
 
 .navbar-menu-icon {
