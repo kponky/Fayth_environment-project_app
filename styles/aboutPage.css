@@ -34,17 +34,17 @@
 }
 
 .aboutPage-container .about-page .about-text {
-  padding-inline: 80px;
+  padding-inline: 60px;
   z-index: 1;
+  margin-top: 30px;
 }
 
-.hero-container .hero__section .hero-text h1 {
+.aboutPage-container .about-page  h1 {
   font-family: Space Grotesk;
-  font-size: 50px;
+  font-size: 35px;
   font-weight: 500;
   line-height: 69.6px;
-
-}
+ }
 /* .hero-container .about-page .about-text{
   display: flex;
 } */
@@ -55,24 +55,23 @@
   text-align: left;
 }
 
-.hero-container .about-page-content{
-  padding-inline: 80px;
+.aboutPage-container .about-page-content{
+  padding-inline: 60px;
   margin-block: 40px;
 }
-.hero-container .about-page-content h3{
-  margin-block: 36px;
+.aboutPage-container .about-page-content h3{
+  margin-block: 30px;
   font-family: Space Grotesk;
   font-size: 20px;
   font-weight: 700;
   line-height: 27.84px;
   text-align: left;
 }
-.hero-container .about-page-content p{
+.aboutPage-container .about-page-content p{
   font-family: Poppins;
   font-size: 14px;
   font-weight: 400;
-  line-height: 20.58px;
-  text-align: left;
+  line-height: 23px;
   color: #322E16;
   text-align: justify;
   
@@ -81,16 +80,38 @@
 
 @media only screen and (max-width: 900px) {
 
-  .hero-container .about-page {
+  .aboutPage-container{
 width: 100%;
 padding-inline: 10px;
 /* margin-inline: 30px; */
 }
 
-.hero-container .about-page-content{
-  padding-inline: 30px;
-  margin-block: 40px;
+.aboutPage-container .about-page{
+  border-radius: 10px;
+  padding-inline: 0px;
+  margin-inline: 10px;
+  margin-top: 140px;
+}
+
+
+.aboutPage-container .about-page  h1 {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: center;
+
+ }
+.aboutPage-container .about-page .about-text {
+  padding-inline: 20px;
+  z-index: 1;
+  margin-top: 30px;
   width: 100%;
 }
+
+.aboutPage-container .about-page-content{
+  padding-inline: 10px;
+}
+
+
 
 }

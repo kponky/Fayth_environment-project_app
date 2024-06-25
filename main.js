@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   window.onscroll = function () {
     headerShadow();
-    scrollActive();
+  
   };
 
  
